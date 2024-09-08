@@ -1,0 +1,498 @@
+p{
+    margin: 0 0 0 0;
+}
+html{
+    box-sizing: border-box;
+
+}
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: #ffffff;
+}
+.uparea {
+    display:flex;
+    height:80px;
+    position:relative;
+    -webkit-box-shadow: 0px 11px 16px 0px rgba(246,246,246,1);
+    -moz-box-shadow: 0px 11px 16px 0px rgba(246,246,246,1);
+    box-shadow: 0px 11px 16px 0px rgba(246,246,246,1);
+}
+.uparea div,h4{
+    margin-top:30px !important;
+    margin-right:10px !important;
+    font-family: "Red Hat Text";
+}
+.uparea h4{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.uparea div{
+    color: #686b78;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+.uplist {
+    position: relative;
+}
+.uplist ul,li{
+    margin: 14px 0px 10px 0px;
+}
+.uparea li{
+    font-family: 'Red Hat Text';
+    font-weight: 500;
+    font-size: 15.5px;
+}
+sup{
+    color: orangered;
+    font-size: smaller;
+}
+.logo_img {
+    width: 90px;
+    height: 70px;
+    margin: 10px 0px 0px 125px;
+}
+.uparea>h4 {
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+}
+.uparea>h4:hover,.uparea>li:hover{
+    color: orangered;
+    text-decoration-color: orangered;
+}
+.a:hover,.swiggc:hover{color:orangered} .b:hover,.search:hover{color:orangered} .f:hover,.Offers:hover{color:orangered} 
+.c:hover,.Help:hover{color:orangered} .d:hover,.Signin:hover{color:orangered}  .e:hover,.Cart:hover{color:orangered}
+.uparea>.location:hover{
+    color: rgb(150, 148, 148);
+}
+.bspace{
+    width:170px
+}
+
+.swiggc{
+    width:135px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.search{
+    width:70px;
+    margin-right: 20px;
+}
+.Offers{
+    width:70px;
+    margin-right: 15px;
+}
+.Help{
+    width:70px;
+    margin-top: 11px;
+    margin-right: 40px;
+}
+.Signin{
+    width:70px;
+}
+.Cart{
+    width:70px;
+}
+.uplist {
+    display:flex;
+    list-style-type: none;
+    margin:10;
+/*    flex-grow:0.9;*/
+    align-items:centre;
+    justify-content:space-between;
+}
+.a{
+    margin-top:0px;
+    margin-right: -14px !important
+}
+.b{
+    margin-top:2px;
+    margin-right:0px!important
+}
+
+.c{
+    margin-top:3px;
+    margin-right: 0px!important;
+    margin-left:-8px
+}
+
+.d{
+    margin-top:4px;
+    margin-right: 0px!important;
+    margin-left:-30px
+}
+
+.e{
+    margin-top:-12px;
+    margin-right: 0px!important;
+    margin-left:20px
+}
+.f{
+    margin-top:1px;
+    margin-right:0px!important;
+    margin-left:-5px!important
+}
+
+.items1{
+    margin:20px 120px 20px 200px;
+    width:1200px
+}
+.middle2{
+    margin:20px 101px 20px 185px;
+    width:1193px
+}
+.middle2{
+    margin-bottom:50px !important
+}
+.items1{
+    margin-top: 16px !important;
+}
+.middle3{
+    margin-bottom:20px;
+    margin-top:20px;
+    width:78%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.middle1{
+    margin-bottom: 90px;
+    border-bottom: grey;
+    border-width: 5px;
+}
+
+.foodtypes{
+    display:flex;
+    width: 1143px;
+    height: 190px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.foodtypes div{
+    height:200px;
+}
+.foodtypes img{
+    width: 144px;
+    height: 180px;
+    margin:0px 24px 0px 0px;
+} 
+.que{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 9px;
+    margin-right:785px;
+}
+#but_ton1,#but_ton3{
+    margin-right: 5px;
+    opacity: 63%;
+}
+.but_ton{
+    display:inline;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+    background: rgba(2, 6, 12, 0.15);
+}
+.restaurant,.restaurant1{
+    height:283px;
+    position: relative;
+    margin-right: 20px !important;
+}
+.restaurant1{
+    margin-top: 10px;
+    margin-bottom: 30px !important;
+}
+.restaurant img,.restaurant1 img{
+    position:relative;
+    vertical-align: auto;
+    border-radius: 8%;
+    height: 177px;
+    object-fit: cover;
+    overflow-x: hidden;
+    box-shadow: -1px -1px 40px -4px rgba(122,120,120,0.51);
+    -webkit-box-shadow: -1px -1px 40px -4px rgba(122,120,120,0.51);
+    -moz-box-shadow: -1px -1px 40px -4px rgba(122,120,120,0.51);
+/*    background:linear-gradient(180deg,#ffffff 0%, #727272 80%);
+*/
+}
+.restaurant img{
+    width: 265px;
+}
+.restaurant1 img{
+    width:253px;
+}
+/*    box-shadow: inset 16px -27px 114px -14px rgba(0,0,0,0.75);
+*/
+.middle2 H2,.middle3 H2{
+    
+    font-family: 'Gilroy-bold';
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+}
+.text{
+    position:absolute;
+    height:102px;
+    bottom:0;
+    left:0;
+    margin-top: 0px;
+}
+.restaurant .text img,.restaurant1 .text img{
+    width:20px;
+    height:20px;
+    margin-top: 0px;
+} 
+.text .rating{
+    display: inline;
+    margin: -5px 0px 0px 5px !important ;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(27, 27, 27, 0.92);
+}
+
+.restaurants,.restaurants1{
+    display: flex;
+    justify-content: flex-start;
+}
+.restaurants{
+    overflow-y: auto;
+    gap: 17px;
+    margin-top:15px;
+    overflow-x:hidden
+}
+.restaurants1{
+    align-content: flex-start;
+    flex-wrap:wrap;
+    gap: 19px;
+    padding-left:17px;
+}
+
+button img {
+    width:12px;
+    display:inline
+}
+.buttons{
+    margin-bottom :22px;
+    margin-top:30px
+}
+.price{
+    z-index: 9;
+    position:absolute;
+    bottom: 115px;
+    right:-8px;
+    font-family: 'Red Hat Text';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.7px;
+    color: rgba(255, 255, 255, 0.92);
+    overflow: hidden;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+.buttonclass{
+    font-family:'Nunito Sans';
+/*   font-style: 'bold';*/
+    font-weight: 501;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #0c0d0dbf;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    padding: 9px 12px;
+    display: inline-grid;
+    width: max-content;
+    grid-auto-flow: column;
+    gap: 8px;
+    box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+}
+
+.picshadow{
+    height: 90px;
+    background: linear-gradient(rgba(11, 12, 14, 0) 0%, rgb(14, 16, 19) 90%);
+    position:absolute;
+    z-index: 8;
+    width:100%;
+    bottom: 106px;
+    right:0px;
+    border-bottom-left-radius:14%;
+    border-bottom-right-radius:14%;
+}
+
+.subt1{
+    margin: 8px 0px 0px 0px;
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgb(2, 6, 12);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+}
+.subt2,.subt3{
+    margin-top: 3.5px;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 15.7px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+}
+.break{
+    border: 1px solid rgba(2, 6, 12, 0.05);
+    margin: 32px calc(10% + 52px);
+}
+.cuisines{
+     margin:20px 0px 20px 108px;
+
+}
+.buttonclass2{
+    height: 50px;
+    letter-spacing: -0.3px;
+    color: rgba(31, 35, 38, 0.9);
+    overflow: hidden;
+    width: 298px;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-family:'Nunito Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    padding: 9px 12px;
+
+}
+.cuisines .buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+
+p,img,div,H2,H4,button,.buttonclass,.buttonclass2 hover{
+    cursor: pointer;
+
+}
+.restaurant1:hover,.restaurant:hover{
+    transform: scale(0.95);
+    -webkit-transition: transform 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out;
+}
+.que,.ans2{
+    cursor:auto !important;
+    display:inline !important;
+    font-family:'Red Hat Text'
+}
+.ans2{
+    margin-right: 745px;
+}
+#--dc{
+    margin-right:0px !important;
+}
+.bottompart{
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    gap:49px;
+    flex-flow: row nowrap;
+    height:420px;
+}
+.bottompart li{
+    color:white;
+}
+.bottompart ul{
+    width:209.5px;
+    list-style-type: none;
+    height:326px
+}
+.a1img_,.a2img_{
+    display:inline
+}
+.a2img_{
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(255, 255, 255, 0.92);
+}
+.d3{
+    height:125px !important
+}
+
+#psc{
+    width: 270px !important;
+    right:-65px !important
+}
+
+@media (width<1500px) {
+    .uparea img{
+        display: none;
+    }
+    .items1,.middle2,.middle3,.cuisines{
+        margin-left: 5px;
+        margin-right:5px
+    }
+}
+@media (width<615px){
+    .uplist{
+        display: revert;
+    }
+    .uparea{
+        height:210px
+    }
+    .bottompart{display: revert;height:900px;margin:0px}
+    .bottompart ul{height:fit-content;margin:35px}
+}
+.foodtypes .carousel__item--visible {
+    display: flex;
+  }
+.carousel__item--hidden {
+    display: none;
+}
+.restaurants .restaurant--visible {
+    display: flex;
+  }
+.restaurant--hidden {
+    display: none;
+}
+.uparea svg{
+    width:15px;
+    position: absolute;
+    left: 85px;
+    bottom:34px;
+    color: rgb(255, 132, 0);
+}
+.buttonclass svg,.buttonclass2 svg{
+    width:15px;
+}
